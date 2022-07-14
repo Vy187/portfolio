@@ -6,7 +6,7 @@ This is the portfolio I have made just using HTML and CSS together. I have kept 
 * [Preview](#Preview)
 * [Link](#Link)
 * [License](#License)
-* [Contributin](#Contributing)
+* [Contributing](#Contributing)
 * [Questions](#Questions)
 
 ## Preview
