@@ -1,3 +1,154 @@
-*{
-    border: 1px solid red;
-}
+/* body attributes */
+body{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #B1D4E0;
+  }
+  /* body attributes */
+  
+  /* navigation bar attributes */
+  nav {
+    width: 100%;
+    position: fixed;
+    background-color: #145DA0;
+    height: 50px;
+    padding: 10px;
+  }
+  
+  nav a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+  }
+  /* navigation bar attributes */
+  
+  /* header attributes */
+  header{
+    width: 100%;
+    height: 300px;
+    padding: 70px 20px 20px 20px;
+    background-color: #145DA0;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  header img{
+    height: 200px;
+    border-radius: 150px;
+    float: right;
+    margin-top: -10px;
+  }
+  
+  h1{
+    font-size: 72px;
+    color: white;
+    margin-bottom: 15px;
+  
+  }
+  
+  h2{
+    color: rgb(158, 0, 0);
+    margin-bottom: 15px;
+  }
+  /* header attributes */
+  
+  /* main attributes */
+  main{
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  /* aside attributes */
+  aside{
+    width: 25%;
+    background-color: #2E8BC0;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+  }
+  
+  h3{
+    color: rgb(168, 0, 0);
+    margin-bottom: 10px;
+  }
+  
+  aside ul{
+    margin-bottom: 15px;
+  }
+  /* aside attributes */
+  
+  /* article attributes */
+  article{
+    width: 75%;
+    padding: 0px 20px 20px 20px;
+  }
+  
+  article section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px rgb(168, 0, 0) solid;
+  }
+  
+  h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  h6{
+    color: rgb(185, 185, 185);
+    margin-bottom: 15px;
+  }
+  
+  /* application section attributes */
+  article img{
+    height: 200px;
+  }
+  
+  #first-application{
+    height: 300px;
+  }
+  
+  .container{
+    width: fit-content;
+    border: 1px black solid;
+    margin: 10px;
+  }
+  
+  .title{
+    text-align: center;
+  }
+  /* application section attributes */
+  
+  /* work experience attributes */
+  article ul{
+    padding-left: 30px;
+    margin-bottom: 15px;
+  }
+  
+  article li{
+    list-style-type: disc;
+  }
+  /* work experience attributes */
+  /* article attributes */
+  /* main attributes */
+  
+  @media screen and (max-width: 992px) {
+    h1{
+      font-size: 48px;
+    }
+    main{
+      display: block;
+    }
+  
+    article, aside{
+      width: 100%;
+    }
+  
+    article img{
+      height: 100px;
+    }
+    
+    #first-application{
+      height: 150px;
+    }
+  }
