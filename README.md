@@ -1,4 +1,5 @@
 # portfolio
+
 ## DESCRIPTION
 This is the portfolio I have made just using HTML and CSS together. I have kept it really simple so it looks pleasing to the eye. The navigation bar will follow the user wherever he or she scrolls. In addition to that clicking on the text on the top right hand corner will take the user to the specific section of the page. The contents of this page includes six section and they are named soft skills, operational skills, about me, applications, work experience, and education.
 
@@ -33,4 +34,4 @@ For more information, please visit: https://opensource.org/licenses/MIT
 [Vy Nguyen](https://github.com/Vy187)
 
 ## Questions
-If you have any questions about the repo, open an inssue or contact us directly at vy1872@gmail.com
+If you have any questions about the repo, open an issue or contact me directly at vy1872@gmail.com
